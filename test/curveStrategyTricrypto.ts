@@ -130,7 +130,7 @@ before(async function() {
     await tx.wait();
 })
 
-describe.skip("Testing tokensVault tricrypto...", async () => {
+describe("Testing tokensVault tricrypto...", async () => {
     let amountToDeposit1: any;
     let amountToDeposit2: any;
     let amountToDeposit3: any;
